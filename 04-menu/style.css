@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: pink;
+}
+ul {
+  display: flex;
+  gap: 17px;
+  list-style: none;
+  height: 50px;
+  align-items: center;
+}
+li:hover {
+  background-color: blue;
+  color: pink;
+  padding: 9px;
+  cursor: pointer;
+}

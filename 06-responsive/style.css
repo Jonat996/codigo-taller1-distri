@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+img{
+    width: 400px;
+    box-shadow: 0 0 15px black;
+    border-radius: 5px;
+}
+@media (max-width: 400px) {
+  img{
+    width: 250px;
+  }
+}
+@media (max-width: 260px) {
+    img{
+      width: 95%;
+    }
+  }
+  

@@ -1,0 +1,13 @@
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#blue {
+  color: blue;
+}
+#red {
+  color: red;
+}

@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  width: 640px;
+}
+
+#underline-green {
+  text-decoration-line: underline;
+  color: green;
+}
+#red {
+  color: red;
+}
+#two-lines {
+  text-decoration-line: overline underline;
+}
+#big-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+#medium-text-blue {
+  color: blue;
+  font-size: 20px;
+}
+#medium-text-red-underline {
+  color: red;
+  text-decoration-line: underline;
+  font-size: 20px;
+}
